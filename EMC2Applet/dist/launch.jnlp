@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>EMC2Applet</title>
+        <vendor>Marcus Derek Phua</vendor>
+        <homepage href=""/>
+        <description>Prototype 3 - JNLP Version</description>
+        <description kind="short">EMC2Applet</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="EMC2Applet.jar" main="true"/>
+    <jar href="lib/jcommon-1.0.17.jar"/>
+<jar href="lib/jfreechart-1.0.14.jar"/>
+</resources>
+    <applet-desc height="600" main-class="MainApplet" name="EMC2Applet" width="1100">
+    </applet-desc>
+</jnlp>
